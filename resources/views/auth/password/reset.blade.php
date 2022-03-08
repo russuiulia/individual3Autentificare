@@ -5,7 +5,7 @@
      <div class="row justify-content-center">
          <div class="col-md-8">
             <div class="card">
-                 <div class="card-header">Reset Password</div>
+                 <div class="card-header">Resetare parola</div>
                       <div class="card-body">
                           <form method="POST" action="/reset-password">
                            @csrf
@@ -24,7 +24,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
+                            <label for="password" class="col-md-4 col-form-label text-md-right">Parola</label>
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" autocomplete="new-password">
 
@@ -46,7 +46,7 @@
 
                      <div class="form-group row mb-0">
                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-error">
+                                <button type="submit" class="btn btn-danger">
                                     Reseteaza parola
                                 </button>
                             </div>
